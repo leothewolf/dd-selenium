@@ -6,19 +6,19 @@ This is a basic package which provides functionality of drag and drop in python 
 To use this package you need to first install it using pip, type:
 
 ```
-pip install 
+pip install dd-selenium
 ```
 
 After it's done navigate back to your program and type:
 
 ```
-import dd-selenium
+import dd_selenium
 ```
 
 Now for drag and drop you need to use a function from the package, type:
 
 ```
-dd-selenium.dds(drop_target, path)
+dd_selenium.dds(drop_target, path)
 ```
 
 Replace 'drop_target' with the div you want to drag and drop in and replace 'path' with the file path on your pc.
@@ -27,11 +27,11 @@ Replace 'drop_target' with the div you want to drag and drop in and replace 'pat
 ## Example:
 
 ```
-import dd-selenium
+import dd_selenium
 
 path = driver.findElement(By.PATH(""));
 
-dd-selenium.dds(path, "C:/abc.file")
+dd_selenium.dds(path, "C:/abc.file")
 ```
 
 Thanks for checking out the repo, if you have any issues feel free to ask.
